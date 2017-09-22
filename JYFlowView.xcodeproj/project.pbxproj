@@ -64,7 +64,7 @@
 		DD6B9B681F74B12A006D8B96 /* SportsFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SportsFlowView.m; sourceTree = "<group>"; };
 		DD6B9B691F74B12A006D8B96 /* SportsFlowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SportsFlowCell.m; sourceTree = "<group>"; };
 		DD6B9B6A1F74B12A006D8B96 /* SportsFlowCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SportsFlowCell.xib; sourceTree = "<group>"; };
-		DDDE11111F74EDB20042DAA7 /* 演示.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "演示.gif"; path = "../演示.gif"; sourceTree = "<group>"; };
+		DDDE11121F74EF230042DAA7 /* 演示.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "演示.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,7 @@
 		DD6B9B221F74B0A1006D8B96 = {
 			isa = PBXGroup;
 			children = (
-				DDDE11111F74EDB20042DAA7 /* 演示.gif */,
+				DDDE11121F74EF230042DAA7 /* 演示.gif */,
 				DD6B9B2D1F74B0A2006D8B96 /* JYFlowView */,
 				DD6B9B491F74B0A2006D8B96 /* JYFlowViewTests */,
 				DD6B9B541F74B0A2006D8B96 /* JYFlowViewUITests */,
