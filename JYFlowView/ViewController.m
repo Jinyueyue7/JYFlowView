@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "SportsFlowView.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    //流动视图
+    SportsFlowView *flowView = [[SportsFlowView alloc]initWithFrame:CGRectMake(0, 300, self.view.frame.size.width, 110)];
+    [self.view addSubview:flowView];
+    [flowView scrolllToIndex:2];
+    
+    flowView.selectSportBlock = ^(NSString *sport) {
+        NSLog(@"%@",sport);
+    };
 }
 
 

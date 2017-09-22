@@ -16,6 +16,10 @@
 		DD6B9B411F74B0A2006D8B96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6B9B401F74B0A2006D8B96 /* main.m */; };
 		DD6B9B4B1F74B0A2006D8B96 /* JYFlowViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6B9B4A1F74B0A2006D8B96 /* JYFlowViewTests.m */; };
 		DD6B9B561F74B0A2006D8B96 /* JYFlowViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6B9B551F74B0A2006D8B96 /* JYFlowViewUITests.m */; };
+		DD6B9B6C1F74B12A006D8B96 /* SportsFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6B9B681F74B12A006D8B96 /* SportsFlowView.m */; };
+		DD6B9B6D1F74B12A006D8B96 /* SportsFlowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6B9B691F74B12A006D8B96 /* SportsFlowCell.m */; };
+		DD6B9B6E1F74B12A006D8B96 /* SportsFlowCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD6B9B6A1F74B12A006D8B96 /* SportsFlowCell.xib */; };
+		DD6B9B6F1F74B3E3006D8B96 /* JYLineLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6B9B641F74B129006D8B96 /* JYLineLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,13 @@
 		DD6B9B511F74B0A2006D8B96 /* JYFlowViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYFlowViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD6B9B551F74B0A2006D8B96 /* JYFlowViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYFlowViewUITests.m; sourceTree = "<group>"; };
 		DD6B9B571F74B0A2006D8B96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD6B9B641F74B129006D8B96 /* JYLineLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYLineLayout.m; sourceTree = "<group>"; };
+		DD6B9B651F74B129006D8B96 /* SportsFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SportsFlowView.h; sourceTree = "<group>"; };
+		DD6B9B661F74B129006D8B96 /* SportsFlowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SportsFlowCell.h; sourceTree = "<group>"; };
+		DD6B9B671F74B129006D8B96 /* JYLineLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYLineLayout.h; sourceTree = "<group>"; };
+		DD6B9B681F74B12A006D8B96 /* SportsFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SportsFlowView.m; sourceTree = "<group>"; };
+		DD6B9B691F74B12A006D8B96 /* SportsFlowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SportsFlowCell.m; sourceTree = "<group>"; };
+		DD6B9B6A1F74B12A006D8B96 /* SportsFlowCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SportsFlowCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +114,7 @@
 		DD6B9B2D1F74B0A2006D8B96 /* JYFlowView */ = {
 			isa = PBXGroup;
 			children = (
+				DD6B9B631F74B0CB006D8B96 /* JYFlowView */,
 				DD6B9B2E1F74B0A2006D8B96 /* AppDelegate.h */,
 				DD6B9B2F1F74B0A2006D8B96 /* AppDelegate.m */,
 				DD6B9B311F74B0A2006D8B96 /* ViewController.h */,
@@ -133,6 +145,20 @@
 				DD6B9B571F74B0A2006D8B96 /* Info.plist */,
 			);
 			path = JYFlowViewUITests;
+			sourceTree = "<group>";
+		};
+		DD6B9B631F74B0CB006D8B96 /* JYFlowView */ = {
+			isa = PBXGroup;
+			children = (
+				DD6B9B671F74B129006D8B96 /* JYLineLayout.h */,
+				DD6B9B641F74B129006D8B96 /* JYLineLayout.m */,
+				DD6B9B661F74B129006D8B96 /* SportsFlowCell.h */,
+				DD6B9B691F74B12A006D8B96 /* SportsFlowCell.m */,
+				DD6B9B6A1F74B12A006D8B96 /* SportsFlowCell.xib */,
+				DD6B9B651F74B129006D8B96 /* SportsFlowView.h */,
+				DD6B9B681F74B12A006D8B96 /* SportsFlowView.m */,
+			);
+			path = JYFlowView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +269,7 @@
 			files = (
 				DD6B9B3E1F74B0A2006D8B96 /* LaunchScreen.storyboard in Resources */,
 				DD6B9B3B1F74B0A2006D8B96 /* Assets.xcassets in Resources */,
+				DD6B9B6E1F74B12A006D8B96 /* SportsFlowCell.xib in Resources */,
 				DD6B9B361F74B0A2006D8B96 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,8 +295,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD6B9B6F1F74B3E3006D8B96 /* JYLineLayout.m in Sources */,
 				DD6B9B331F74B0A2006D8B96 /* ViewController.m in Sources */,
 				DD6B9B301F74B0A2006D8B96 /* AppDelegate.m in Sources */,
+				DD6B9B6C1F74B12A006D8B96 /* SportsFlowView.m in Sources */,
+				DD6B9B6D1F74B12A006D8B96 /* SportsFlowCell.m in Sources */,
 				DD6B9B411F74B0A2006D8B96 /* main.m in Sources */,
 				DD6B9B391F74B0A2006D8B96 /* JYFlowView.xcdatamodeld in Sources */,
 			);
