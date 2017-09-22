@@ -17,6 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor cyanColor];
     
     //流动视图
     SportsFlowView *flowView = [[SportsFlowView alloc]initWithFrame:CGRectMake(0, 300, self.view.frame.size.width, 110)];
